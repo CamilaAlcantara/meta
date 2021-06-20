@@ -125,7 +125,7 @@
         
   ## Informações sobre o job de aniversário: 
   
-  <text> O job de aniversáio foi construído utilizando como padrão @Scheduled(cron = "0 01 12 * * *"), ou sejá ele irá executar todos os dias ao meio dia e irá retornar uma lista com os aniversáriante. Caso durante o teste da aplicação seja diferente desse horário, você poderá alterar cron antes de execultar o processo, o método também imprime uma mensagem no console da IDE. 
+  <text> O job de aniversáio foi construído utilizando como padrão @Scheduled(cron = "0 01 12 * * *"), ou seja ele irá executar todos os dias ao meio dia e irá retornar uma lista com os aniversariante. Caso durante o teste da aplicação seja diferente desse horário, você poderá alterar cron antes de execultar o processo, o método também imprime uma mensagem no console da IDE. 
 Para que fique fácil entender como modificar @Scheduled(cron = "0 01 12 * * *"), observe as dicas a seguir.
 </text>
 
