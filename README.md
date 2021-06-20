@@ -122,4 +122,43 @@
           }
 
         ```
+        
+  ## Informações sobre o job de aniversário: 
+  
+  <text> O job de aniversáio foi construído utilizando como padrão @Scheduled(cron = "0 01 12 * * *"), ou sejá ele irá executar todos os dias ao meio dia e irá retornar uma lista com os aniversáriante. Caso durante o teste da aplicação seja diferente desse horário, você poderá alterar cron antes de execultar o processo, o método também imprime uma mensagem no console da IDE. 
+Para que fique fácil entender como modificar @Scheduled(cron = "0 01 12 * * *"), observe as dicas a seguir.
+</text>
+
+ <h4>Campos do Cron</h4>
+  
+  ```
+       @Scheduled(cron = "A B C D E F")
+     
+  ```
+ <h4>Significado dos Campos do Cron</h4>
+  
+  ```
+      1) A: Segundos (0 - 59)
+      2) B: Minutos (0 - 59)
+      3) C: Horas (0 - 23)
+      4) D: Dia (1 - 31)
+      5) E: Mês (1 - 12)
+      6) F: Dia da semana (0 - 6)
+      7) Note também que nos exemplos foram usados o *, 
+      esse caracter indica que para o campo específicado qualquer valor será considerado.
+     
+  ```
+  
+   ## Fontes para contato: 
+  
+<text> Em caso de dúvida para utilizar ou configurar a Api pode estar entrando em contato por e-mail e pelo whastapp, que assim que possível eu esclareço as dúvidas.
+</text>
+  
+   <h4>Dados</h4>
+  
+  ```
+     E-mail: camilamariana19@gmail.com
+     Whatsapp: (33) 99917-4111
+     
+  ```
 
