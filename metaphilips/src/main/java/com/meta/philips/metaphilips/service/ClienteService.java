@@ -55,8 +55,17 @@ public class ClienteService implements ClienteInterfaceService{
 	}
 	@Override
 	public Cliente alterar(@RequestBody Cliente entity) {
-		return this.clienteRepository.save(entity);
+		
+//		verificando se o id existe
+		Cliente clientePorId = clienteRepository.verificaId(entity.id);
+
+		if(clientePorId != null) {
+			return this.clienteRepository.save(entity);
+		}else {
+				return null;
+				}
 	}
+	
 	@Override
 	public void delete(@RequestBody Cliente entity) {
 		 this.clienteRepository.delete(entity);
