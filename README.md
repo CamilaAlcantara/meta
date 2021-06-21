@@ -26,6 +26,7 @@
   1) Lombok
   2) Data JPA
   3) Para realizar os teste de get, post, pull e delete, foi utilizado o Postman para fazer as chamadas.
+  4) Nome da base de dados: meta
   
   
  ## Urls utilizadas para testar a API: 
